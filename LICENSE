@@ -1,0 +1,105 @@
+PROPRIETARY SOFTWARE LICENSE AGREEMENT
+PhotoEngine Studio & AutoCAD Photometric Bridge
+
+Copyright (c) 2026 Elliott W. Breinholt. All rights reserved.
+
+1. OWNERSHIP & GRANT OF LICENSE
+PhotoEngine Studio, including its solver engine, user interface, AutoLISP bridge
+scripts (PhotoBridge.lsp), icons, and documentation (collectively, the "Software"),
+is proprietary software developed and owned exclusively by Elliott W. Breinholt.
+No title to or ownership of the Software or any intellectual property rights
+therein is transferred to any user or organization.
+
+Subject to the terms of this Agreement, the copyright holder grants authorized
+users a limited, non-exclusive, non-transferable, revocable license to install
+and execute the compiled binary Software solely for internal architectural,
+lighting, and electrical engineering design workflows.
+
+2. RESTRICTIONS
+Without prior written permission from Elliott W. Breinholt, you may NOT:
+  (a) Copy, redistribute, sublicense, sell, lease, or host the Software for
+      third parties;
+  (b) Reverse engineer, decompile, disassemble, or attempt to derive the source
+      code of the Software (except to the extent expressly permitted by
+      applicable law);
+  (c) Remove, alter, or obscure any copyright, trademark, version, or
+      proprietary notices embedded within the Software.
+
+3. ENGINEERING RESPONSIBILITY & DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+Photometric illuminance grids, uniformity ratios, Lighting Power Density (LPD),
+BUG ratings, contours, and life-safety emergency egress calculations generated
+by the Software are mathematical simulations dependent upon third-party IES
+LM-63 photometric data, surface reflectance assumptions, light loss factors,
+and CAD geometry. The Software is an engineering aid only and does not replace
+independent professional engineering judgment. The Designer or Professional
+Engineer of Record remains solely responsible for verifying luminaire data,
+field conditions, life-safety egress minimums, and compliance with all
+applicable building, electrical, and energy codes.
+
+4. LIMITATION OF LIABILITY
+IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM,
+DAMAGES, CODE COMPLIANCE PENALTIES, CONSTRUCTION DELAYS, OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+================================================================================
+THIRD-PARTY OPEN-SOURCE SOFTWARE NOTICES
+================================================================================
+
+Portions of the compiled runtime incorporate open-source software licensed under
+the following permissive terms:
+
+--------------------------------------------------------------------------------
+1. Wails v2 (https://github.com/wailsapp/wails) — MIT License
+--------------------------------------------------------------------------------
+Copyright (c) 2018-present Lea Anthony
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+2. The Go Programming Language Standard Library — BSD 3-Clause License
+--------------------------------------------------------------------------------
+Copyright (c) 2009 The Go Authors. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice, this
+    list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+  * Neither the name of Google Inc. nor the names of its contributors may be
+    used to endorse or promote products derived from this software without
+    specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
